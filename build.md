@@ -2,7 +2,6 @@ Reddit (arm64-v8a): 2024.17.0
 Reddit (arm-v7a): 2024.17.0  
 Twitter: 10.80.0-release.0  
 YouTube (arm64-v8a): 19.47.53  
-YouTube (arm-v7a): 19.47.53  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
