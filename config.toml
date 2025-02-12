@@ -21,10 +21,12 @@ uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [Instagram]
 build-mode = "apk"
+arch = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 
 [GooglePhotos]
 build-mode = "apk"
+arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 
 [YouTube]
