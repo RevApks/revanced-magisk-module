@@ -1,6 +1,4 @@
-GooglePhotos (arm64-v8a): 7.24.0.747539053  
-GooglePhotos (arm-v7a): 7.24.0.747539053  
-Instagram (arm64-v8a): 376.0.0.51.68  
+GooglePhotos (arm64-v8a): 7.25.0.747549628  
 Reddit (arm64-v8a): 2024.17.0  
 Reddit (arm-v7a): 2024.17.0  
 Twitter: 10.84.0-release.0  
@@ -12,5 +10,5 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.20.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.20.0)  
+Patches: ReVanced/patches-5.20.1.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.20.1)  
