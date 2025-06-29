@@ -5,77 +5,56 @@ parallel-jobs = 1
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
+# dont build on gh actions (https://github.com/j-hc/revanced-magisk-module/issues/554)
 
-[YouTube]
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Music]
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+patches-version = "dev"
 
-[GooglePhotos]
-build-mode = "both"
-arch = "both"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-
-[Spotify]
+[SpotifyOld]
+arch = "arm64-v8a"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+#apkmirror-dlurl = "https://apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+#apkmirror-dpi = "120-640dpi"
+build-mode = "apk"
+included-patches = "'Custom theme' 'Sanitize sharing links' 'Fix third party launchers widgets'"
 
-# https://github.com/j-hc/revanced-magisk-module/issues/554
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
+[SpotifyA14]
+arch = "arm64-v8a"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+#apkmirror-dlurl = "https://apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+#apkmirror-dpi = "120-640dpi"
+build-mode = "apk"
+included-patches = "'Custom theme' 'Sanitize sharing links' 'Fix third party launchers widgets'"
+patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/system_background_dark -ObackgroundColorSecondary=@android:color/system_surface_container_high_dark -OaccentColor=@android:color/system_primary_dark -OaccentColorPressed=@android:color/system_primary_light"
+
+[Reddit]
+build-mode = "apk"
 arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-[Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [Twitter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
-dpi = "120-640dpi"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+apkmirror-dpi = "120-640dpi"
+apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
-[TikTok]
-enabled = false
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
+[Instagram]
+build-mode = "apk"
+arch = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-arch = "arm64-v8a"
+[GooglePhotos]
+build-mode = "apk"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+[YouTube]
+build-mode = "apk"
+arch = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+included-patches = "'Custom branding' 'Theme'"
+patcher-args = "-OdarkThemeBackgroundColor=@android:color/system_neutral1_900 -OlightThemeBackgroundColor=@android:color/system_neutral1_50 "
