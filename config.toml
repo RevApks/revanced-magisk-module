@@ -60,3 +60,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 included-patches = "'Custom branding' 'Theme'"
 patcher-args = "-OdarkThemeBackgroundColor=@android:color/system_neutral1_900 -OlightThemeBackgroundColor=@android:color/system_neutral1_50 "
+
+[Protonmail]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonmail-encrypted-email/"
+build-mode = "apk"
