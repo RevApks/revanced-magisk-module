@@ -49,12 +49,12 @@ apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 
 [GooglePhotos]
 build-mode = "apk"
-arch = "arm-v8a"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 
 [YouTube]
 build-mode = "apk"
-arch = "arm-v8a"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 included-patches = "'Custom branding' 'Theme'"
