@@ -1,8 +1,8 @@
 GooglePhotos: 7.36.0.779865778  
 Instagram: 378.0.0.52.68  
 Protonmail: 4.13.0  
-SpotifyA14: 9.0.62.603  
-SpotifyOld: 9.0.62.603  
+SpotifyA14: 9.0.62.616  
+SpotifyOld: 9.0.62.616  
 YouTube: 20.13.41  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -11,5 +11,23 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.31.2-dev.4.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2-dev.4)  
+Patches: ReVanced/patches-5.31.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2)
+
+Patches: ReVanced/patches-5.31.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2)
+
+Patches: ReVanced/patches-5.31.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2)
+
+Patches: ReVanced/patches-5.31.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2)
+
+Patches: ReVanced/patches-5.31.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2)
+
+Patches: ReVanced/patches-5.31.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2)
+
+Patches: ReVanced/patches-5.31.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.2)  
