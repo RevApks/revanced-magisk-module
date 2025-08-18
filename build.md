@@ -1,8 +1,8 @@
 GooglePhotos: 7.41.0.795526889  
 Protonmail: 7.0.4  
 Reddit: 2024.17.0  
-SpotifyA14: 9.0.72.939  
-SpotifyOld: 9.0.72.939  
+SpotifyA14: 9.0.72.949  
+SpotifyOld: 9.0.72.949  
 YouTube: 20.13.41  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -11,5 +11,5 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.34.0-dev.9.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.34.0-dev.9)  
+Patches: ReVanced/patches-5.34.0-dev.12.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.34.0-dev.12)  
