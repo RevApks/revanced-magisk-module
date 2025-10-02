@@ -1,4 +1,4 @@
-GooglePhotos: 7.47.0.810631069  
+GooglePhotos: 7.48.0.813334473  
 Protonmail: 4.15.0  
 Reddit: 2024.17.0  
 YouTube: 20.14.43  
@@ -9,5 +9,5 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.42.0-dev.5.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.0-dev.5)  
+Patches: ReVanced/patches-5.42.0-dev.9.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.0-dev.9)  
